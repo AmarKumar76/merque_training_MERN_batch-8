@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        .container{
+            background-color:#fff8dc;
+            min-height:100vh;
+            padding:20px;
+        }
+
+        h1,h2{
+            text-align:center;
+            margin-bottom:10px;
+        }
+
+        .first-row,
+        .second-row{
+            display:flex;
+            justify-content:space-around;
+            margin-top:30px;
+        }
+
+        .veg,
+        .non-veg,
+        .drink,
+        .snack{
+            width:40%;
+            background-color:white;
+            border:2px solid black;
+            border-radius:10px;
+            padding:15px;
+        }
+
+        h3{
+            text-align:center;
+            color:darkred;
+            margin-bottom:15px;
+        }
+
+        ul{
+            list-style:none;
+        }
+
+        li{
+            display:flex;
+            justify-content:space-between;
+            padding:8px 0;
+            border-bottom:1px solid gray;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>A1 Restaurant</h1>
+    <h2>Restaurant Menu</h2>
+
+    <div class="first-row">
+
+        <div class="veg">
+            <h3>Veg</h3>
+            <ul>
+                <li><span>Paneer Butter Masala</span><span>₹220</span></li>
+                <li><span>Shahi Paneer</span><span>₹240</span></li>
+                <li><span>Mix Veg</span><span>₹180</span></li>
+                <li><span>Dal Tadka</span><span>₹150</span></li>
+                <li><span>Veg Biryani</span><span>₹200</span></li>
+            </ul>
+        </div>
+
+        <div class="non-veg">
+            <h3>Non Veg</h3>
+            <ul>
+                <li><span>Chicken Curry</span><span>₹280</span></li>
+                <li><span>Chicken Biryani</span><span>₹260</span></li>
+                <li><span>Mutton Curry</span><span>₹350</span></li>
+                <li><span>Fish Fry</span><span>₹300</span></li>
+                <li><span>Tandoori Chicken</span><span>₹320</span></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="second-row">
+
+        <div class="drink">
+            <h3>Drinks</h3>
+            <ul>
+                <li><span>Cold Coffee</span><span>₹90</span></li>
+                <li><span>Mango Shake</span><span>₹80</span></li>
+                <li><span>Lemon Juice</span><span>₹50</span></li>
+                <li><span>Chocolate Shake</span><span>₹100</span></li>
+                <li><span>Soft Drink</span><span>₹40</span></li>
+            </ul>
+        </div>
+
+        <div class="snack">
+            <h3>Snacks</h3>
+            <ul>
+                <li><span>Burger</span><span>₹120</span></li>
+                <li><span>Pizza</span><span>₹250</span></li>
+                <li><span>Momos</span><span>₹100</span></li>
+                <li><span>French Fries</span><span>₹110</span></li>
+                <li><span>Sandwich</span><span>₹90</span></li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
